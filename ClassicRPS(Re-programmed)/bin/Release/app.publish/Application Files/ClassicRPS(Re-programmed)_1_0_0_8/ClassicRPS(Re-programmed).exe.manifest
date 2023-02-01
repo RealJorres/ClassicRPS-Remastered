@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ClassicRPS(Re-programmed).exe" version="1.0.0.8" publicKeyToken="9fccc6d0e3d6239f" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ClassicRPS(Re-programmed)" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ClassicRPS(Re-programmed).exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClassicRPS(Re-programmed).exe" size="227328">
+      <assemblyIdentity name="ClassicRPS(Re-programmed)" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NEy8nx5TuTAk8S/sSLFWjW8syab466S0+8bAEZ+szIw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.dll" size="3485696">
+      <assemblyIdentity name="Telerik.WinControls" version="2017.3.1017.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pRCPqzYfLHVZBOYagSFSjnTA/D/EgDeyxSb3xCDUTyQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.UI.dll" size="4898816">
+      <assemblyIdentity name="Telerik.WinControls.UI" version="2017.3.1017.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fvJhzafs33SsPZVOVo8gCl0lC988hQL+23xinZSQzPA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TelerikCommon.dll" size="343552">
+      <assemblyIdentity name="TelerikCommon" version="2017.3.1017.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LLkLJpsXdbWB1eHhph6UO9Ryu655JPDAQuamvdt+jBU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ClassicRPS(Re-programmed).exe.config" size="198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p4IDVmrCaorHBTKLGPOyXJR50Bw7nWS1Y/Xbzaqqcs0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JOSHUA\Joshua" issuerKeyHash="15c186deba1b691cbc46040291b8f0d1874167eb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LVDfikIhyy2u+fi1VJ2oOctidgJaQlqEZFnLwwxIrbg=</DigestValue></Reference></SignedInfo><SignatureValue>NgyO+92lP3cL4GCJGX4QeMoNXobzG0BFpdVxMWYO7t62jxPVOCw71ZQ+cFB/Rr6tZtNvIP8QrgM8bmcLURCMjh2pI/2PlEN3Fn37PEnHiJYLc636gJ74d7vt62KVjAX6mtLCPKzaNEXcgRDx2atFEJrUpOt87QY/57PZ8WyQVs8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0bZ1dZBZaj7rOidFsEF79cLF9drbMnOf5e/T1ZXA9HpMczauGUAU+UqiJTgtVzcj7oA2/lVaGesGLxS6yBhetKjf/pKy9N5aQhKh09b5jdmTFU4EQciVcqO/oQnm0HLPRhjLVr3W6Siwdz7XYFmWLuPUOW79Iy95uJu2UZ8hqGc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b8ad480cc3cb5964845a425a027662cb39a89d54b5f8f9ae2dcb21428adf502d" Description="" Url=""><as:assemblyIdentity name="ClassicRPS(Re-programmed).exe" version="1.0.0.8" publicKeyToken="9fccc6d0e3d6239f" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JOSHUA\Joshua</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5YfotTPYXcAT6/YXfBcHJx6rGfE9pGjCvsTNehn3Ggo=</DigestValue></Reference></SignedInfo><SignatureValue>rjCSQzx0QkWCbT7w3jwrFk9q38cVvUcQLfW0hLgd7FWD9yIqpyW89YKnkd50gi1dzCP9vIS/gPPGCq5Ihvqdn+0t7nFPY+ozWt4sV2tDNu4Zt5WRG9yGxYUCAL++GN3vg3Z6IeL3V0xFtVXkQGg/m9U8LZGgZnKBKxgpwsmRWEE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0bZ1dZBZaj7rOidFsEF79cLF9drbMnOf5e/T1ZXA9HpMczauGUAU+UqiJTgtVzcj7oA2/lVaGesGLxS6yBhetKjf/pKy9N5aQhKh09b5jdmTFU4EQciVcqO/oQnm0HLPRhjLVr3W6Siwdz7XYFmWLuPUOW79Iy95uJu2UZ8hqGc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQFJO4fMYQeI1L8YAOYUqUlzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASgBPAFMASABVAEEAXABKAG8AcwBoAHUAYTAeFw0yMDAyMjUwOTUxMzRaFw0yMTAyMjQxNTUxMzRaMCUxIzAhBgNVBAMeGgBKAE8AUwBIAFUAQQBcAEoAbwBzAGgAdQBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRtnV1kFlqPus6J0WwQXv1wsX12tsyc5/l79PVlcD0ekxzNq4ZQBT5SqIlOC1XNyPugDb+VVoZ6wYvFLrIGF60qN/+krL03lpCEqHT1vmN2ZMVTgRByJVyo7+hCebQcs9GGMtWvdbpKLB3PtdgWZYu49Q5bv0jL3m4m7ZRnyGoZwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAMgUzs6XEhvn82v/EIKVgW2SqWCt/ycM2Dcl96H0Egofr1ejqlsq7C8N/j/vwiax4FUsda2b0C6qKkw7xVhh1cHrnSZ+SUxFvPGz4ofvGs6++xltofJwD7tdTzILgUgif4ce38gG76PvvOVFllzYbtyAogNRkTAKJB3qEuh1L5ec</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
